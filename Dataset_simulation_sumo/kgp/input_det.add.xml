@@ -1,0 +1,13 @@
+<additional>
+	<inductionLoop id="i_3" lane=":2614492894_9_0" pos="450" freq="30" file="cross.out" friendlyPos="x"/>
+	<inductionLoop id="i_1" lane=":1471100885_0_0" pos="450" freq="30" file="cross.out" friendlyPos="x"/>
+
+	<inductionLoop id="i_2" lane=":2613601271_1_0" pos="450" freq="30" file="cross.out" friendlyPos="x"/>
+	<inductionLoop id="i_0" lane=":2613601269_0_0" pos="450" freq="30" file="cross.out" friendlyPos="x"/>
+
+	<vType id="type1" accel="0.9" decel="4.5" color="1,1,0" depart="0.00" sigma="0.5" length="15" maxSpeed="120"/>
+	<vType id="type2" accel="0.8" decel="4.5" color="1,0,0" depart="0.00" sigma="0.5" length="15" maxSpeed="180"/>
+	<vType id="type3" accel="0.1" decel="4.5" color="0,1,1" depart="0.00" sigma="0.5" length="15" maxSpeed="10"/>
+
+
+</additional>

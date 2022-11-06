@@ -1,0 +1,30 @@
+import csv
+import sys
+import math
+x = []
+y = []
+z = []
+with open('edge.csv','rb') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        x.append(float(row[0]))
+        y.append(float(row[1]))
+	
+with open('node.csv','rb') as g:
+    reader = csv.reader(g)
+    for row in reader:
+        z.append(float(row[0]))
+
+
+a = open("y.csv", 'w' )
+
+for it in range (0,246):
+	for ip in range (0,123):
+		if (y[it] == z[ip]) :
+			a.write(str(ip+1))
+			break 
+
+	a.write("\n")
+
+
+	
